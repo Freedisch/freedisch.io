@@ -1,56 +1,104 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: 'About Me'
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. Incidentally, these same features make it a great template for anyone that needs to show off a professional template!
+I'm a graduate from [African Leadership University](https://www.alueducation.com/), majoring in Software Engineering. Currently, I'm working on a security operations validation platform (APT groups, ransomware gangs, phishing attempts) as a Software Engineer at [TrustStamp](https://truststamp.ai/). I'm an open source addict and have been part of the [Google Summer of Code](https://summerofcode.withgoogle.com/archive/2024/projects/vFuhwP9m) working on SecureCodeBox, an open-source framework for auto-mated vulnerability scanning in Kubernetes environments supervised by [Jannik Hollenbach](https://github.com/j12934). Besides, I also conducted research on during my bachelor thesis on "Enhancing Crisis Response through Fine-Tuned Large Language Models for understaffed
+Emergency Centers in TOGO", supervised by Mr. [Marvin Ogore](https://scholar.google.com/citations?user=hebWLwEAAAAJ&hl=en) and Ms. [Samiratu Ntohsi](https://rw.linkedin.com/in/samiratu-ntohsi-320580140). If you're interested in working with me or need any career advice feel free to hit me up.  
+[My CV]()
 
- You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and Markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
+## News
 
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured Markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various Markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+- **August 4, 2025:** I started a new position as software engineer at TrustStamp.
+- **June 26, 2025:** Graduated from African Leadership University with a Bachelor's degree with First Class Honours.
+- **December 22, 2024:** Got selected to participate to Middle East North Africa Machine learning conference in Doha, Qatar. I will be presenting a **Poster** on my bachelor thesis.
+- **November 7, 2024:** Presented my work during the Linux Foundation Mentorship program at the Linux foundation open source summit Tokyo, Japan.
+- **May 1, 2024:** My proposal for the Google Summer of Code has been accepted. I will spend the summer working on secureCodeBox project and collaborate with engineers from the OWASP Foundation to build a command-line interface (CLI) to simplify interactions with security scans in Kubernetes.
+- **August 28, 2023:** Got selected to be part of the **Linux Foundation Mentorship** program, I will spend the Fall working on developing Test Cases strategies for the [LitmusChaos](https://litmuschaos.io/) project, a chaos engineering platform.
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your Markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over - just be sure to save the Markdown files! You can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+## Research Vision
 
-For those users that need more advanced functionality, the template also supports the following popular tools:
-- [MathJax](https://www.mathjax.org/) for mathematical equations
-- [Mermaid](https://mermaid.js.org/) for diagraming
-- [Plotly](https://plotly.com/javascript/) for plotting
+My long-term research vision is to leverage my interests in distributed systems and machine learning to enhance existing healthcare infrastructure, building sustainable solutions specifically tailored for low-income countries facing data scarcity. I believe this will help cope with the shortages of medical workers.
 
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](https://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+## Selected Publications
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+<!--
+<div class="selected-publications">
+  <p><li>Policy Learning for Robotic Manipulation</li></p>
 
-Create content & metadata
-------
-For site content, there is one Markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a Markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each Markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+  <div class="publication">
+    <p><strong>MATCH POLICY: A Simple Pipeline from Point Cloud Registration to Manipulation Policies</strong></p>
+    <p><i>Haojie Huang, <strong>Haotian Liu</strong>, Dian Wang, Robin Walters*, and Robert Platt*</i> (* Equal Advising)</p>
+    <p>IEEE International Conference on Robotics and Automation <a href="https://2025.ieee-icra.org/">ICRA 2025</a> at Atlanta USA, <a href="https://www.arxiv.org/abs/2409.15517">PDF</a>, <a href="https://haojhuang.github.io/match_page/">Project Page</a></p>
+    <img src="images/match_policy.png" alt="Match Policy" style="max-width: 200px; float: right; margin-left: 20px;">
+  </div>
 
-**Markdown generator**
+  <div class="publication">
+    <p><strong>IMAGINATION POLICY: Using Generative Point Cloud Models for Learning Manipulation Policies</strong></p>
+    <p><i>Haojie Huang, Karl Schmeckpeper*, Dian Wang*, Ondrej Biza*, Yaoyao Qian**, <strong>Haotian Liu</strong>**, Mingxi Jia**, Robert Platt, and Robin Walters</i> (*, ** Equal Contribution)</p>
+    <p>Conference on Robot Learning <a href="https://www.corl.org/">CoRL 2024</a> at Munich, Germany, <a href="https://arxiv.org/abs/2406.11740">PDF</a>, <a href="https://haojhuang.github.io/imagine_page/">Project Page</a></p>
+    <img src="images/imgPolicy.png" alt="Imagination Policy" style="max-width: 200px; float: right; margin-left: 20px;">
+  </div>
 
-The repository includes [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual Markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the Markdown files, then commit and push them to the GitHub repository.
+  <p><li>Deep Learning Optimization for 3D Vision</li></p>
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and Markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
+   <div class="publication">
+    <p><strong>GPS: A Probabilistic Distributional Similarity with Gumbel Priors for Set-to-Set Matching</strong></p>
+    <p><i><strong>Haotian Liu</strong>*, Fangzhou Lin*, Ziming Zhang*, Jose Morales, Haichong Zhang, Kazunori Yamada, Vijaya B Kolachalama, Venkatesh Saligrama</i> (* co-first author)</p>
+    <p>International Conference on Learning Representations <a href="https://iclr.cc/">ICLR 2025</a> at Singapore, <a href="https://openreview.net/pdf?id=U0SijGsCHJ">PDF</a>, Code Coming Soon</p>
+    <img src="images/gps.png" alt="GPS" style="max-width: 200px; float: right; margin-left: 20px;">
+  </div>
 
-Example: editing a Markdown file for a talk
-![Editing a Markdown file for a talk](/images/editing-talk.png)
+  <div class="publication">
+    <p><strong>Loss Distillation via Gradient Matching for Point Cloud Completion with Weighted Chamfer Distance</strong></p>
+    <p><i><strong>Haotian Liu</strong>*, Fangzhou Lin*, Haoying Zhou*, Songlin Hou*, Kazunori Yamada, Gregory S. Fischer, Yanhua Li, Haichong K. Zhang, and Ziming Zhang</i> (* co-first author)</p>
+    <p>IEEE/RSJ International Conference on Intelligent Robots and Systems <a href="https://iros2024-abudhabi.org/">IROS 2024</a> at Abu Dhabi UAE, <strong>Oral Presentation</strong>, <a href="https://arxiv.org/abs/2409.06171">PDF</a>, <a href="https://github.com/seanliu7081/LossDistillationWeightedCD_IROS24.git">Code</a>, <a href="https://drive.google.com/file/d/1BoKFYu1weEQomJB_u7ATCbDfiqRkEywd/view?usp=sharing">PPT</a></p>
+    <img src="images/lossDistill.png" alt="Loss Distillation" style="max-width: 200px; float: right; margin-left: 20px;">
+  </div>
 
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+  <p><li>Healthcare Automation Monitoring System</li></p>
+
+  <div class="publication">
+    <p><strong>Automated Control of External Ventricular Drain for Neuro-ICU</strong></p>
+    <p><i><strong>Haotian Liu</strong>, Yujie Guo, Haoran Zhang, and Matthew Duncan</i></p>
+    <p><strong>Bachelor Thesis</strong>, <a href="https://digital.wpi.edu/concern/student_works/gm80j077x?locale=en">PDF</a>, <a href="https://github.com/seanliu7081/EVD-Linear-Actuator-Control">Code</a></p>
+    <img src="images/EVD_show_pic.JPG" alt="Auto EVD" style="max-width: 200px; float: right; margin-left: 20px;">
+  </div>
+
+  <p><li>FDM Printing for Soft Robotics</li></p>
+
+  <div class="publication">
+    <p><strong>Vision-based FDM Printing for Fabricating Airtight Soft Actuators</strong></p>
+    <p><i>Yijia Wu*, Zilin Dai*, <strong>Haotian Liu</strong>, Lehong Wang, and Markus P. Nemitz </i> (* co-first author)</p>
+    <p>IEEE-RAS International Conference on Soft Robotics <a href="https://robosoft2024.org/">RoboSoft 2024</a> at San Diego USA, <strong>Oral Presentation</strong> <a href="https://arxiv.org/abs/2312.01135">PDF</a></p>
+    <img src="images/website_pics/roboSoft_2024.png" alt="Vision Printing" style="max-width: 200px; float: right; margin-left: 20px;">
+  </div>
+
+</div> -->
+
+## Services
+
+Reviewer of: NeurIPS 2024, ICLR 2025, AISTATS 2025, ICML 2025
+
+<style>
+  .selected-publications {
+    margin-top: 20px;
+  }
+  .publication {
+    margin-bottom: 30px;
+    overflow: hidden;
+  }
+  .publication h4 {
+    margin-bottom: 5px;
+  }
+  .publication p {
+    margin: 5px 0;
+  }
+  .publication img {
+    border: 1px solid #ddd;
+  }
+</style>
