@@ -24,11 +24,11 @@ Emergency Centers in TOGO", supervised by Mr. [Marvin Ogore](https://scholar.goo
 
 My long-term research vision is to leverage my interests in distributed systems and machine learning to enhance existing healthcare infrastructure, building sustainable solutions specifically tailored for low-income countries facing data scarcity. I believe this will help cope with the shortages of medical workers.
 
-## Selected Publications
+## Selected Project
 
 <!--
 <div class="selected-publications">
-  <p><li>Policy Learning for Robotic Manipulation</li></p>
+  <p><li>Enhancing Emergency Response with Fine-tuned Large Language Models</li></p>
 
   <div class="publication">
     <p><strong>MATCH POLICY: A Simple Pipeline from Point Cloud Registration to Manipulation Policies</strong></p>
@@ -38,13 +38,13 @@ My long-term research vision is to leverage my interests in distributed systems 
   </div>
 
   <div class="publication">
-    <p><strong>IMAGINATION POLICY: Using Generative Point Cloud Models for Learning Manipulation Policies</strong></p>
+    <p><strong>Fraud detection with LLMs</strong></p>
     <p><i>Haojie Huang, Karl Schmeckpeper*, Dian Wang*, Ondrej Biza*, Yaoyao Qian**, <strong>Haotian Liu</strong>**, Mingxi Jia**, Robert Platt, and Robin Walters</i> (*, ** Equal Contribution)</p>
     <p>Conference on Robot Learning <a href="https://www.corl.org/">CoRL 2024</a> at Munich, Germany, <a href="https://arxiv.org/abs/2406.11740">PDF</a>, <a href="https://haojhuang.github.io/imagine_page/">Project Page</a></p>
     <img src="images/imgPolicy.png" alt="Imagination Policy" style="max-width: 200px; float: right; margin-left: 20px;">
   </div>
 
-  <p><li>Deep Learning Optimization for 3D Vision</li></p>
+  <p><li>Computer Vision for seizure detection</li></p>
 
    <div class="publication">
     <p><strong>GPS: A Probabilistic Distributional Similarity with Gumbel Priors for Set-to-Set Matching</strong></p>
